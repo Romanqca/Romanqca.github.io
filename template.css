@@ -1,0 +1,116 @@
+
+
+ul {
+
+	list-style-type: none;
+    margin-top: -10px;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid black;
+    background: black;
+    position: fixed;
+    width: 100%;
+}
+
+li {
+	float:left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 12px;
+}
+#unline {
+	border-bottom: 2px solid white;
+	padding-bottom: -8px;
+}
+li a:hover {
+	background-color: lightgreen;
+	border: 2px solid black;
+    padding: -2px;
+
+}
+.righty_icon {
+    float: right;
+
+}
+.bg_img {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 40px solid black;
+}
+
+.bubble {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+.text1 {
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-right: 100px;
+    border: 2px solid black;
+}
+.h1center {
+    text-align: center;
+}
+.goleft {
+    text-align: center;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.goright {
+    text-align: center;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.text1 {
+    width: 400px;
+    height: 400px;
+    float: right;
+    margin-right: 50px;
+}
+#container {
+    width: 95%;
+    height: 300px;
+    margin: auto;
+}
+#more_content {
+    width: 85.2%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    margin-top: 100px;
+    background-color: black;
+}
+.ytvid {
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-color: white;
+}
+.ytvid:hover {
+    border-color: lightgreen;
+}
+.cont {
+    margin-top: 10px;
+    margin-left: 10px;
+    float: right;
+    border: 1px solid white;
+    width: 30%;
+    height: 300px;
+    margin-right: 10px;
+    color: white;
+
+}
